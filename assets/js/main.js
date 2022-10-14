@@ -99,27 +99,3 @@ let swiperTestimonial = new Swiper(".testimonial__container", {
     },
   },
 });
-
-let swiper = new Swiper(".discover__container", {
-  grabCursor: true,
-  centeredSlides: true,
-  slidesPerView: "auto",
-  loop: true,
-  spaceBetween: 32,
-  coverflowEffect: {
-    rotate: 0,
-  },
-  breakpoints: {
-    576: {
-      slidesPerView: 2,
-    },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 25,
-    },
-    1024: {
-      slidesPerView: 2,
-      spaceBetween: 2,
-    },
-  },
-});
